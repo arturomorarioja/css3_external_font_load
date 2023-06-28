@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap&text=BANS');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100');
+:root {
+    --fontLocal: Branda, fantasy; 
+    --fontExternal: Dosis, sans-serif;
+    --fontWord: Lobster;
+    --fontNoSwap: Prompt;
+}
+@font-face {
+    font-family: Branda;
+    src: url(../font/Branda-yolq.ttf);
+}
+
+* {
+    font-size: 1.4rem;
+}
+
+#local {
+    font-family: var(--fontLocal);
+}
+#external {
+    font-family: var(--fontExternal);
+}
+#word {
+    font-family: var(--fontWord);
+}
+#noswap {
+    font-family: var(--fontNoSwap);
+}
